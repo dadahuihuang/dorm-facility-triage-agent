@@ -1,4 +1,4 @@
-# ---- 密钥与本地数据（务必不要提交）----
+﻿# ---- 瀵嗛挜涓庢湰鍦版暟鎹紙鍔″繀涓嶈鎻愪氦锛?---
 .env
 .env.*
 *.key
@@ -13,17 +13,17 @@ __pycache__/
 venv/
 env/
 
-# ---- 编辑器 / IDE ----
+# ---- 缂栬緫鍣?/ IDE ----
 .vs/
 .vscode/
 .idea/
 *.suo
 *.user
 
-# ---- 运行产物 ----
-_smoke_*.log
+# ---- 杩愯浜х墿 ----
+_smoke*
 experiments/test_cases_raw.json
 
-# ---- 系统 ----
+# ---- 绯荤粺 ----
 Thumbs.db
 .DS_Store
