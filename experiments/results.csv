@@ -1,0 +1,8 @@
+﻿exp_id,split,model,features,cleaning,C,macro_f1,accuracy,n_features,n_eval
+E1,test,NB,char 1-3gram,否,,0.9133,0.9122,5000,444
+E2,test,NB,char 1-3gram,是,,0.9378,0.9369,4829,444
+E3,test,LR,char 1-3gram,否,10.0,0.9755,0.9752,5000,444
+E4,test,LR,char 1-3gram,是,10.0,0.9935,0.9932,4829,444
+E5,val,LR,word 1-2gram,是,1.0,0.9842,0.9841,1810,439
+E6,val,LR,char 1-3gram,是,1.0,0.9798,0.9795,4829,439
+E7,val,LR,char 1-3gram,是,10.0,0.9911,0.9909,4829,439

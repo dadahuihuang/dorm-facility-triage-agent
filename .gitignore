@@ -1,0 +1,29 @@
+# ---- 密钥与本地数据（务必不要提交）----
+.env
+.env.*
+*.key
+data/tickets.db
+data/tickets.db-journal
+
+# ---- Python ----
+__pycache__/
+*.py[cod]
+*.egg-info/
+.venv/
+venv/
+env/
+
+# ---- 编辑器 / IDE ----
+.vs/
+.vscode/
+.idea/
+*.suo
+*.user
+
+# ---- 运行产物 ----
+_smoke_*.log
+experiments/test_cases_raw.json
+
+# ---- 系统 ----
+Thumbs.db
+.DS_Store
